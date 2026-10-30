@@ -1,6 +1,6 @@
 # Computador de 4 bits
 
-Este projeto implementa um computador simples de 4 bits, construído no simulador de circuitos digitais a partir de portas lógicas básicas. O sistema é composto por uma ULA (Unidade Lógica e Aritmética) de 4 bits, um registrador acumulador de 4 bits, um contador de programa, uma memória ROM de 16 posições, um decodificador de instruções e um clock. A cada pulso de clock o contador avança, a ROM entrega a próxima instrução, o decodificador interpreta o código da operação e a ULA executa o cálculo, guardando o resultado no acumulador até que uma instrução de parada (HLT) seja encontrada.
+Este projeto implementa um computador simples de 4 bits, construído no simulador circuit verse a partir de portas lógicas básicas. O sistema é composto por uma ULA (Unidade Lógica e Aritmética) de 4 bits, um registrador acumulador de 4 bits, um contador de programa, uma memória ROM de 16 posições, um decodificador de instruções e um clock. A cada pulso de clock o contador avança, a ROM entrega a próxima instrução, o decodificador interpreta o código da operação e a ULA executa o cálculo, guardando o resultado no acumulador até que uma instrução de parada (HLT) seja encontrada.
 
 ## ULA de 4 bits
 
@@ -39,7 +39,7 @@ A ULA é capaz de realizar operações aritméticas e lógicas: adição, subtra
 
 ## Como usar
 
-1. Abra o arquivo `COMPUTADOR_4BITS.cv` no simulador de circuitos digitais.
+1. Abra o arquivo `COMPUTADOR_4BITS.cv` no simulador de circuit verse.
 2. Vá até a aba **Computador de 4 bits**.
 3. Grave o programa desejado na ROM (a ROM do arquivo está zerada).
 4. Ative o clock e acompanhe os valores de ACC e PC nas saídas.
@@ -48,5 +48,5 @@ Cada bloco também pode ser testado de forma isolada na sua própria aba, altera
 
 ## Ferramentas
 
-- Simulador de circuitos digitais (arquivo `.cv`)
+- Simulador circuit verse (arquivo `.cv`)
 - Projeto desenvolvido na disciplina de Circuitos Digitais, Ciência da Computação, Unisantos
